@@ -1,2 +1,2 @@
-# Coding_Practice
-Additional front end web development projects
+#Practice_Projects
+More front end web development projects
