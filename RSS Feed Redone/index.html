@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/rss.js"></script>
+    <title>Reddit Feed Notifier</title>
+</head>
+<body>
+    <h6>Reddit Notifier</h6>
+    <div class="form-group" id="formgrp">
+    <form action="urlChecker()">
+     <label for ="urlInput" name="urlLabel" value="urlInputLabel">Enter the subreddit you'd like to check for new posts</label>
+    <input type="url" name="urlInput" id="urlInput" value="https://www.reddit.com/r/cordcutters/"pattern="https://www.reddit.com/r/*"required title="The URL must be a valid subreddit">
+    <input type="Submit" name="submitBtn" value="Submit" id="submitBtn">
+</form>
+</div>
+</body>
+
+</html>

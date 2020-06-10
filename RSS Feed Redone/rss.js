@@ -1,0 +1,5 @@
+submitBtn.onclick(){
+    function urlChecker(){
+        
+    }
+}
